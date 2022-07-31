@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     direction: rtl;
@@ -12,22 +12,29 @@ body{
     border-bottom: 1px solid #626262;
     width: 100% !important;
 }
-.bg-light{
-background: none !important;
+
+.bg-light {
+    background: none !important;
 }
-.navbar-nav li.nav-item a.nav-link{
+
+.navbar-nav li.nav-item a.nav-link {
     color: white;
     padding: 0 21px;
     font-size: 11pt;
 }
-.navbar-nav li.nav-item a.nav-link:hover{
-    color: rgb(235, 48, 7);;
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: rgb(235, 48, 7);
+    ;
 }
-.nav-link.active{
+
+.nav-link.active {
     color: rgb(235, 48, 7) !important;
 }
-.btn-slider-top{
-    border: 1px solid rgb(235, 48, 7);;
+
+.btn-slider-top {
+    border: 1px solid rgb(235, 48, 7);
+    ;
     width: 7rem;
     text-align: center;
     color: white;
@@ -38,42 +45,48 @@ background: none !important;
     background-color: rgb(235, 48, 48);
     transition-duration: 0.4s;
 }
-.btn-slider-top:hover{
+
+.btn-slider-top:hover {
     background: none;
     cursor: pointer;
 }
 
 /* slider */
-.slider-top{
-    position: relative;
-    top: -4rem;
+header .navbar-top-slider {
+    position: fixed;
+    z-index: 9999;
 }
 
 
 /* title-main-slider */
-.title-main-slider{
-    position: relative;
+.title-main-slider {
+    position: absolute;
     text-align: center;
-    bottom: 30rem;
+    width: 100%;
+    top: 200px;
+
 }
-.title-main-slider span{
+
+.title-main-slider span {
     display: block;
 }
-.title-main-slider span:nth-child(1){
+
+.title-main-slider span:nth-child(1) {
     color: rgb(235, 48, 7);
     font-size: 22pt;
     font-family: inherit;
     font-weight: bolder;
     line-height: 80px;
 }
-.title-main-slider span:nth-child(2){
+
+.title-main-slider span:nth-child(2) {
     color: white;
     font-size: 41pt;
     font-weight: bolder;
     line-height: 116px;
 }
 
-.btn-nain-slider{
+.btn-nain-slider {
     border: 1px solid rgb(235, 48, 7);
     width: 164px;
     margin: 0 auto;
@@ -81,31 +94,32 @@ background: none !important;
     height: 36px;
     line-height: 30px;
     color: white;
-    background:rgb(235, 48, 7);
+    background: rgb(235, 48, 7);
     cursor: pointer;
     transition-duration: 0.4s;
-    
+
 }
-.btn-nain-slider:hover{
+
+.btn-nain-slider:hover {
     background: none;
     animation: alternate;
-   
+
 }
-.title-main-slider .title-span-main{
-color: white;
-font-weight: bolder;
+
+.title-main-slider .title-span-main {
+    color: white;
+    font-weight: bolder;
 }
 
 
 
 /* darbare ma */
-.about{
+.about {
     background-image: url(../img/ad088603633d49b9bd8e9a45ad4dffe0.jpg);
     background-size: auto;
-    position: relative;
-    top: -20rem;
 }
-.border-title{
+
+.border-title {
     border: 2px solid #ff440c;
     width: 341px;
     position: relative;
@@ -114,7 +128,8 @@ font-weight: bolder;
     height: 344px;
     top: 5rem;
 }
-.border-title video{
+
+.border-title video {
     height: 373px;
     width: 375px;
     box-sizing: border-box;
@@ -122,30 +137,35 @@ font-weight: bolder;
     top: 35px;
     box-shadow: 1px 1px 2px 9px lightgrey;
 }
-.darbare-left{
+
+.darbare-left {
     position: relative;
     top: 4rem;
 }
-.about .darbare-left i{
+
+.about .darbare-left i {
     color: #eb3007;
     font-family: B koodak;
     font-size: 18pt;
     font-weight: bolder;
 }
-.about .darbare-left P{
+
+.about .darbare-left P {
     color: black;
     font-size: 27pt;
     font-weight: bolder;
     font-family: inherit;
 }
-.about .darbare-left span{
+
+.about .darbare-left span {
     font-size: 10.5pt;
     font-family: inherit;
     text-align: justify;
     display: block;
     color: #7a7a7a;
 }
-.about .darbare-left .btn-about{
+
+.about .darbare-left .btn-about {
     border: 2px solid rgb(235, 48, 7);
     width: 132px;
     border-radius: 50px;
@@ -156,14 +176,15 @@ font-weight: bolder;
     margin-top: 29px;
     transition-duration: 0.4s;
 }
-.about .darbare-left .btn-about:hover{
-    background-color:rgb(235, 48, 7) ;
+
+.about .darbare-left .btn-about:hover {
+    background-color: rgb(235, 48, 7);
     color: white;
     cursor: pointer;
 
 }
 
-.about .darbare-left img{
+.about .darbare-left img {
     float: left;
     position: relative;
     top: -64px;
@@ -171,15 +192,16 @@ font-weight: bolder;
 
 
 /* moarefi start */
-.moarefi{
+.moarefi {
     background-image: url(../img/7c0402abf8f34144baaa7d1f03cef6a2.jpg);
     background-attachment: fixed;
     background-size: cover;
-   width: 100%;
-   height: 100%;
-   
-} 
-.moarefi .border-radius{
+    width: 100%;
+    height: 100%;
+
+}
+
+.moarefi .border-radius {
     margin: 0 auto;
     display: block;
     border: 3px solid rgb(235, 48, 7);
@@ -188,20 +210,21 @@ font-weight: bolder;
     height: 145px;
     margin-top: 7rem;
     transition-duration: 0.4s;
-    
-}
-.moarefi .border-radius:hover{
-    background-color: rgb(235, 48, 7);
-} 
 
-.moarefi .border-radius img{
+}
+
+.moarefi .border-radius:hover {
+    background-color: rgb(235, 48, 7);
+}
+
+.moarefi .border-radius img {
     margin: 0 auto;
     display: block;
     position: relative;
     top: 33px;
 }
 
-.moarefi p{
+.moarefi p {
     color: white;
     text-align: center;
     font-size: 19pt;
@@ -209,15 +232,17 @@ font-weight: bolder;
     font-family: inherit;
     font-weight: bolder;
 }
-.moarefi span{
+
+.moarefi span {
     display: block;
     text-align: center;
     color: white;
     font-family: inherit;
     font-size: 11pt;
 
-} 
-.moarefi .margin{
+}
+
+.moarefi .margin {
     margin-bottom: 40px;
 }
 
@@ -225,12 +250,12 @@ font-weight: bolder;
 
 /* menu-restoran */
 
-.title-menu-resturan{
+.title-menu-resturan {
     margin-top: 90px;
 }
 
-.title-menu-resturan p:nth-child(1){
-   
+.title-menu-resturan p:nth-child(1) {
+
     font-size: 15pt;
     font-family: titr;
     font-weight: bolder;
@@ -238,7 +263,7 @@ font-weight: bolder;
     color: #eb3007;
 }
 
-.title-menu-resturan p:nth-child(2){
+.title-menu-resturan p:nth-child(2) {
     text-align: center;
     color: black;
     font-size: 23pt;
@@ -246,21 +271,22 @@ font-weight: bolder;
     font-weight: bolder;
 }
 
-.menu-restoran{
+.menu-restoran {
     background-image: url(../img/ad088603633d49b9bd8e9a45ad4dffe0.jpg);
     height: 100%;
     width: 100%;
 }
 
 
-.box-menu{
+.box-menu {
     background: white;
     border: 1px solid silver;
     position: relative;
     height: 170px;
     margin: 26px 0;
 }
-.box-menu p:nth-child(1){
+
+.box-menu p:nth-child(1) {
     color: #525252;
     font-size: 17pt;
     font-family: B koodak;
@@ -271,7 +297,7 @@ font-weight: bolder;
     padding-right: 52px;
 }
 
-.box-menu .price{
+.box-menu .price {
     display: inline-block;
     float: left;
     border-style: double;
@@ -284,7 +310,7 @@ font-weight: bolder;
     font-family: B koodak;
 }
 
-.box-menu span.title-main-menu-restoran{
+.box-menu span.title-main-menu-restoran {
     display: block;
     padding: 12px 53px;
     font-size: 10pt;
@@ -292,14 +318,15 @@ font-weight: bolder;
     color: #838383;
 }
 
-.box-menu .mohtava{
+.box-menu .mohtava {
     color: #eb3007;
     border-left: 2px solid silver;
     padding-right: 48px;
     font-size: 10pt;
     font-weight: 500;
 }
-.box-menu .mohtava2{
+
+.box-menu .mohtava2 {
     font-size: 10pt;
     color: #ababab;
     padding-right: 8px;
@@ -308,37 +335,43 @@ font-weight: bolder;
 
 
 /* khoshmaze */
-.khoshmaze{
+.khoshmaze {
     background-image: url(../img/b77cd76de4364f9091262ecdf102ad9b.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
 }
+
 .khoshmaze .carousel {
     margin-bottom: 106px;
 }
-.khoshmaze .title-top-khoshmaze{
+
+.khoshmaze .title-top-khoshmaze {
     text-align: center;
     margin-top: 138px;
 }
-.khoshmaze .title-top-khoshmaze p:nth-child(1){
+
+.khoshmaze .title-top-khoshmaze p:nth-child(1) {
     color: #eb3007;
     font-size: 15pt;
     margin-bottom: 0;
     font-weight: bolder;
 }
-.khoshmaze .title-top-khoshmaze p:nth-child(2){
+
+.khoshmaze .title-top-khoshmaze p:nth-child(2) {
     color: white;
     font-size: 33px;
     font-weight: bolder;
     font-family: titr;
 }
-.main-box-khoshmaze{
+
+.main-box-khoshmaze {
     padding: 5px 22px;
-   
+
 }
-.khoshmaze .box-khoshmaze-left{
-    width: 100%;
+
+.khoshmaze .box-khoshmaze-left {
+    width: 537px;
     background-color: white;
     box-shadow: 1px 1px 2px 9px #ebebeb;
     position: relative;
@@ -346,13 +379,14 @@ font-weight: bolder;
     top: 2rem;
 }
 
-.box-khoshmaze-left p{
+.box-khoshmaze-left p {
     color: #eb3007;
     font-size: 16pt;
     font-family: titr;
     padding: 19px 19px 0px 0;
 }
-.box-khoshmaze-left span.name-food{
+
+.box-khoshmaze-left span.name-food {
     font-size: 12pt;
     font-family: inherit;
     color: #858181;
@@ -361,12 +395,12 @@ font-weight: bolder;
 }
 
 
-.khoshmaze .box-khoshmaze-left .dot-khoshmaze-left{
+.khoshmaze .box-khoshmaze-left .dot-khoshmaze-left {
     font-size: 21pt;
     color: #6e6e6e;
 }
 
-.khoshmaze .box-khoshmaze-left .price-food{
+.khoshmaze .box-khoshmaze-left .price-food {
     font-family: B koodak;
     font-size: 14pt;
     color: #999797;
@@ -376,84 +410,91 @@ font-weight: bolder;
 
 
 /* cooks start */
-.cooks{
+.cooks {
     background-image: url(../img/ad088603633d49b9bd8e9a45ad4dffe0.jpg);
     width: 100%;
-    height: 97rem;
+    height: 55rem;
 }
-.title-top-cooks{
+
+.title-top-cooks {
     text-align: center;
     margin-top: 65px;
 }
 
-.title-top-cooks p:nth-child(1){
+.title-top-cooks p:nth-child(1) {
     color: #eb3007;
     font-size: 15pt;
     margin-bottom: 0;
     font-weight: bolder;
 }
 
-.title-top-cooks p:nth-child(2){
+.title-top-cooks p:nth-child(2) {
     color: black;
     font-size: 33px;
     font-weight: bolder;
     font-family: titr;
-   
+
 }
 
-.image-cooks{
+.image-cooks {
     margin-top: 60px;
     box-shadow: 0 0 2px 6px silver;
+    height: 91%;
 }
-   
 
-.image-cooks img{
+
+.image-cooks img {
     margin: 0 auto;
     display: block;
     width: 100%;
+    height: 100%;
 }
-.cooks .information-cooks{
+
+.cooks .information-cooks {
     width: 100%;
     background-color: white;
     margin-top: 60px;
-    height: 585px;
-   
+    height: 91%;
+
     box-shadow: -10px 0px 4px 7px silver;
 }
- .cooks .box-shadow-cooks{
+
+.cooks .box-shadow-cooks {
     box-shadow: 0px 0px 4px 7px silver;
 
- }
- .cooks .box-shadow-buttom-cooks{
+}
+
+.cooks .box-shadow-buttom-cooks {
     box-shadow: -10px 0px 4px 7px silver;
 
- }
+}
 
-.cooks .information-cooks p:nth-child(1){
+.cooks .information-cooks p:nth-child(1) {
     color: black;
     font-size: 25pt;
     font-family: B koodak;
     padding: 27px 25px 0px 0px;
 }
 
-.cooks .information-cooks p:nth-child(2){
+.cooks .information-cooks p:nth-child(2) {
     color: #eb3007;
     font-size: 11pt;
     font-family: inherit;
     font-weight: bolder;
     padding: 0 22px 0 0;
-    
+
 }
-.cooks .information-cooks span.title-box-main-cooks{
+
+.cooks .information-cooks span.title-box-main-cooks {
     display: block;
-text-align: justify;
-font-size: 11pt;
-color: #787777;
-padding: 30px 37px;
+    text-align: justify;
+    font-size: 11pt;
+    color: #787777;
+    padding: 30px 37px;
 }
 
 
-.cooks .information-cooks img{
+.cooks .information-cooks img {
     float: left;
     padding: 25px 59px;
 }
@@ -463,24 +504,26 @@ padding: 30px 37px;
 
 /* Reserve start */
 
-.reserve-right{
+.reserve-right {
     background-color: rgb(0, 0, 0);
     background-image: url(../img/back88.png);
     background-size: auto;
     height: 100%;
 }
-.Reserve .reserve-right .input-Reserve input{
+
+.Reserve .reserve-right .input-Reserve input {
     display: block;
 }
 
-.Reserve .reserve-right p:nth-child(1){
+.Reserve .reserve-right p:nth-child(1) {
     color: #eb3007;
     font-size: 15pt;
     font-family: titr;
     margin-bottom: 0;
     padding: 160px 95px 0px 0px;
 }
-.Reserve .reserve-right p:nth-child(2){
+
+.Reserve .reserve-right p:nth-child(2) {
     color: white;
     font-size: 30pt;
     font-family: inherit;
@@ -488,58 +531,68 @@ padding: 30px 37px;
     padding: 0px 95px 13px 0px;
 }
 
-.Reserve .container-fluid .input-Reserve input{
-    width: 30rem;
+.Reserve .container-fluid .input-Reserve input {
+    width: 73%;
     font-size: 11pt;
     height: 38px;
     text-align: right;
     margin: 12px auto;
 }
 
-.Reserve .container-fluid .input-Reserve input:nth-child(4){
+.Reserve .container-fluid .input-Reserve input:nth-child(4) {
     height: 147px;
 }
 
-.btn-Reserve{
+.btn-Reserve {
     margin: 26px 6rem;
 }
 
 .Reserve .img-Reserve img {
     width: 100%;
+    height: 100%;
+}
+
+.img-Reserve {
+    height: 100%;
 }
 
 /* Reserve end */
 
 
 /* Lovely food start */
-.Lovely-food{
+.Lovely-food {
     margin-top: 5rem;
 }
-.Lovely-food .container-img img{
-    
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-        margin-bottom: 1.5rem;
+
+.Lovely-food .container-img img {
+
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 1.5rem;
 }
-.Lovely-food .Lovely-food-title{
+
+.Lovely-food .Lovely-food-title {
     text-align: center;
 }
-.Lovely-food-title p:nth-child(1){
+
+.Lovely-food-title p:nth-child(1) {
     color: #eb3030;
     font-size: 13pt;
     font-family: titr;
     margin-bottom: 0;
 }
-.Lovely-food-title p:nth-child(2){
+
+.Lovely-food-title p:nth-child(2) {
     font-size: 24pt;
     font-family: inherit;
     font-weight: bolder;
 }
-.Lovely-food .container-img .middle{
+
+.Lovely-food .container-img .middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -550,30 +603,34 @@ padding: 30px 37px;
     text-align: center;
     color: white;
 }
-.Lovely-food .container-img{
+
+.Lovely-food .container-img {
     position: relative;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     width: 100%;
 }
-.Lovely-food .container-img:hover img{
+
+.Lovely-food .container-img:hover img {
     opacity: 0.3;
-   
+
 }
-.Lovely-food .container-img:hover .middle{
+
+.Lovely-food .container-img:hover .middle {
     opacity: 1;
 }
-.Lovely-food .container-img text{
+
+.Lovely-food .container-img text {
     background-color: #04AA6D;
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-  padding: 16px 32px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 16px 32px;
 }
 
 /* Lovely food end */
 
 
 /* Comments start */
-.Comments{
+.Comments {
     background-image: url(../img/211ba9a53e1242f19816314d437d36f6.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -583,29 +640,33 @@ padding: 30px 37px;
     width: 30%;
     margin: auto;
 }
-.Comments .comments-title-top{
+
+.Comments .comments-title-top {
     text-align: center;
     margin-top: 4rem;
 }
-.Comments .comments-title-top p:nth-child(1){
+
+.Comments .comments-title-top p:nth-child(1) {
     color: #ffb100;
     font-size: 16pt;
     font-family: titr;
     margin: 0;
 }
-.Comments .comments-title-top p:nth-child(2){
+
+.Comments .comments-title-top p:nth-child(2) {
     color: white;
     font-size: 30pt;
     font-family: inherit;
     font-weight: bolder;
 }
 
-.Comments .carousel-caption{
+.Comments .carousel-caption {
     margin-top: 0;
     padding: 0rem 0;
     width: 25rem;
 }
-.Comments .carousel-caption h5{
+
+.Comments .carousel-caption h5 {
     color: white;
     font-size: 17pt;
     font-family: inherit;
@@ -615,7 +676,8 @@ padding: 30px 37px;
     top: 1rem;
 
 }
-.Comments .carousel-caption p{
+
+.Comments .carousel-caption p {
     color: white;
     font-size: 10pt;
     font-family: inherit;
@@ -623,7 +685,7 @@ padding: 30px 37px;
     width: 17rem;
     position: relative;
     top: 1rem;
-    
+
 }
 
 /* Comments end */
@@ -633,43 +695,47 @@ padding: 30px 37px;
 
 
 /* weblog */
-.weblog{
+.weblog {
     background-image: url(../img/ad088603633d49b9bd8e9a45ad4dffe0.jpg);
     width: 100%;
     height: 100%;
 }
-.weblog .title-weblog-top{
+
+.weblog .title-weblog-top {
     text-align: center;
     margin-top: 6rem;
 }
-.weblog .title-weblog-top p:nth-child(1){
+
+.weblog .title-weblog-top p:nth-child(1) {
     font-size: 16pt;
     font-family: titr;
     color: #f15424;
     margin-bottom: 0;
 }
-.weblog .title-weblog-top p:nth-child(2){
+
+.weblog .title-weblog-top p:nth-child(2) {
     font-size: 25pt;
     font-weight: bolder;
     font-family: inherit;
     margin-bottom: 4rem !important;
 }
 
-.weblog .image-weblog img{
+.weblog .image-weblog img {
     width: 100%;
     object-fit: cover;
     height: 60px;
     display: block;
 }
 
-.weblog .image-weblog a{
+.weblog .image-weblog a {
     font-size: 12pt;
     font-family: inherit;
     color: #898989;
     padding-top: 7px;
     text-decoration: none;
 }
-.weblog .image-weblog p{
+
+.weblog .image-weblog p {
     font-size: 10pt;
     color: #999999;
     font-family: inherit;
@@ -677,7 +743,7 @@ padding: 30px 37px;
 
 
 /* Katrink start */
-.Katrink{
+.Katrink {
     background-image: url(../img/850a089a10c64bcdb34a5847d7206907.jpg);
     width: 100%;
     height: 100%;
@@ -685,24 +751,28 @@ padding: 30px 37px;
     background-size: cover;
 }
 
-.Katrink .title-katrink{
+.Katrink .title-katrink {
     text-align: center;
     margin-top: 11rem;
 }
-.Katrink .title-katrink h2{
+
+.Katrink .title-katrink h2 {
     font-size: 34pt;
     color: white;
     font-family: B koodak;
     margin-bottom: 2rem;
 }
-.Katrink .title-katrink p{
+
+.Katrink .title-katrink p {
     color: white;
     margin: 0;
     font-size: 15pt;
     font-family: inherit;
 }
-.Katrink .btn-Katrink{
-    border: 1px solid rgb(236, 83, 83);;
+
+.Katrink .btn-Katrink {
+    border: 1px solid rgb(236, 83, 83);
+    ;
     width: 197px;
     border-radius: 50px;
     height: 3rem;
@@ -711,7 +781,8 @@ padding: 30px 37px;
     background-color: rgb(235, 48, 7);
     margin: 2rem auto;
 }
-.Katrink .btn-Katrink:hover{
+
+.Katrink .btn-Katrink:hover {
     background: none;
     cursor: pointer;
     transition-duration: 0.4s;
@@ -720,55 +791,367 @@ padding: 30px 37px;
 /* Katrink end */
 
 /* footer */
-.background-footer{
+.background-footer {
     background-color: rgb(0, 0, 0);
     background-image: url(../img/back88.png);
     background-size: auto;
 }
 
-.background-footer .title-footer-main{
+.background-footer .title-footer-main {
     margin-top: 7rem;
 }
 
-.background-footer .title-footer-main p:nth-child(1){
+.background-footer .title-footer-main p:nth-child(1) {
     color: white;
     font-family: titr;
     font-size: 17pt;
     text-align: center;
 }
 
-.background-footer .border-buttom-footer{
+.background-footer .border-buttom-footer {
     border-bottom: 3px solid red;
     width: 27%;
     margin: auto;
     margin-bottom: 1.5rem;
 }
-.background-footer .title-footer-main p.title-footer{
+
+.background-footer .title-footer-main p.title-footer {
     text-align: center;
     color: white;
 }
 
-.footer-buttom{
+.footer-buttom {
     height: 5rem;
     background: black;
 }
 
-.background-footer-buttom span.title-footer1{
+.background-footer-buttom span.title-footer1 {
     position: relative;
     top: 1.5rem;
-    right: 8rem;
+    right: 5rem;
     color: white;
     font-size: 11pt;
     font-family: inherit;
 }
-.background-footer-buttom span.title-footer2{
+
+.background-footer-buttom span.title-footer2 {
     float: left;
     position: relative;
     top: 1.5rem;
     left: 7rem;
 }
-.background-footer-buttom span.title-footer2 a{
+
+.background-footer-buttom span.title-footer2 a {
     color: white;
     font-size: 16pt;
     padding: 0 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive  start */
+@media screen and (max-width:1100px) {
+    .navbar-nav li.nav-item a.nav-link {
+        font-size: 12pt;
+        padding: 0 13px;
+    }
+
+    .cooks {
+        height: 60rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+
+
+
+    .title-main-slider {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 150px;
+    }
+
+    .title-main-slider span:nth-child(1) {
+        color: rgb(235, 48, 7);
+        font-size: 20pt;
+        font-family: inherit;
+        font-weight: bolder;
+        line-height: 16px;
+    }
+
+    .title-main-slider span:nth-child(2) {
+        color: white;
+        font-size: 32pt;
+        font-weight: bolder;
+        line-height: 116px;
+    }
+
+    .navbar-top-slider {
+        width: 82%;
+    }
+
+    .container-fluid {
+        display: block;
+        float: left;
+    }
+
+    .btn-slider-top {
+        display: none;
+    }
+
+    .container-fluid {
+        display: block !important;
+    }
+
+    .navbar-toggler {
+        float: left;
+        background: linear-gradient(331deg, rgba(16, 252, 226, 0.6138830532212884) 0%, rgba(69, 209, 204, 1) 18%, rgba(215, 93, 145, 1) 67%);
+    }
+
+    .about {
+        height: 95rem;
+    }
+
+    .about .border-title {
+        margin: 0 auto;
+        width: 467px;
+        height: 445px;
+        position: relative;
+        left: 56px;
+    }
+
+    .about .darbare-left i {
+        font-size: 27pt;
+    }
+
+    .about .darbare-left span {
+        font-size: 19.5pt;
+    }
+
+    .darbare-left {
+        position: relative;
+        top: 12rem;
+    }
+
+
+    .about .darbare-left .btn-about {
+
+        width: 32%;
+        height: 55px;
+        line-height: 35px;
+        font-size: 23pt;
+        font-weight: bolder;
+        margin: 50px auto;
+
+    }
+
+    .border-title video {
+        width: 470px;
+        height: 470px;
+    }
+
+    .khoshmaze {
+        height: 92rem;
+    }
+
+    .khoshmaze .box-khoshmaze-left {
+        width: 100%;
+        position: relative;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .box-khoshmaze-left span.name-food {
+        font-size: 22pt;
+    }
+
+    .main-box-khoshmaze{
+        text-align: center;
+    }
+    .main-box-khoshmaze img{
+        width: 59px;   
+    }
+    .khoshmaze .box-khoshmaze-left .price-food {
+        font-size: 21pt;
+    }
+
+    .box-khoshmaze-left p{
+        font-size: 21pt;
+    }
+    .title-top-cooks p:nth-child(1){
+        font-size: 23pt;
+    }
+    .cooks .information-cooks p:nth-child(2){
+        font-size: 18pt;
+    }
+    .cooks .information-cooks span.title-box-main-cooks{
+        font-size: 18pt;
+    }
+    .cooks .information-cooks {
+        margin-top: -6px;
+        height: 91%;
+        box-shadow: 0px 7px 1px 2px silver;
+    }
+
+    .image-cooks {
+
+        margin-top: 65px;
+        box-shadow: 0 -3px 0px 2px silver;
+        height: 91%;
+    }
+
+    .cooks {
+        height: 119rem;
+    }
+
+    .cooks .information-cooks img {
+        padding: 47px 0 113px 52px;
+    }
+
+    .moarefi .border-radius img {
+        position: relative;
+        top: 56px;
+        height: 171px;
+        width: 171px;
+    }
+    .moarefi .border-radius{
+    width: 300px;
+    height: 300px;
+    margin-top: 7rem;
+    
+    }
+    .moarefi p{
+        font-size: 34pt;
+    }
+    .moarefi span{
+        font-size: 18pt;
+    }
+    .title-menu-resturan p:nth-child(1){
+        font-size: 29pt;
+    }
+    .title-menu-resturan p:nth-child(2){
+        font-size: 32pt;
+    }
+    .box-menu p:nth-child(1){
+        font-size: 26pt;
+    }
+    .box-menu span.title-main-menu-restoran{
+        font-size: 18pt;
+    }
+    .box-menu .price{
+        font-size: 19pt;
+        width: 82px;
+        height: 45px;
+    }
+    .box-menu{
+        height: 300px;
+    }
+    .box-menu .mohtava{
+        font-size: 18pt;
+    }
+    .box-menu .mohtava2{
+        font-size: 14pt;
+    }
+
+    .Reserve{
+        height: 100rem;
+    }
+    .Reserve .reserve-right p:nth-child(1){
+        font-size: 23pt;
+    }
+    .Reserve .container-fluid .input-Reserve input{
+        width: 80%;
+    font-size: 16pt;
+    height: 61px;
+    }
+    .Reserve .btn-slider-top{
+        display: block;
+    }
+    .Reserve .btn-slider-top{
+
+    width: 13rem;
+    line-height: 46px;
+    height: 62px;
+    font-size: 20pt;
+    }
+    .Lovely-food{
+        height: 122rem;
+    }
+    .Lovely-food-title p:nth-child(1){
+        font-size: 29pt;
+    }
+    .Comments .carousel{
+        width: 70%;
+    }
+    .Comments .carousel-caption h5{
+        
+        font-size: 22pt;
+        width: 23rem;
+        position: relative;
+        top: 0rem;
+    }
+    .Comments .carousel-caption p{
+      
+    font-size: 15pt;
+    width: 26rem;
+    position: relative;
+    top: 1rem;
+    }
+    .weblog .image-weblog a{
+        font-size: 18pt;
+    }
+    .weblog .image-weblog p{
+        font-size: 15pt;
+    }
+    .background-footer .title-footer-main p:nth-child(1){
+        font-size: 24pt;
+    }
+    .background-footer .title-footer-main p.title-footer{
+        font-size: 19pt;
+    }
+    .background-footer-buttom span.title-footer1{
+        position: relative;
+     right: 0rem; 
+    color: white;
+    font-size: 19pt;
+    display: block;
+    text-align: center;
+    }
+    .footer-buttom{
+        height: 9rem;
+    }
+    .background-footer-buttom span.title-footer2 a{
+        font-size: 27pt;
+    }
+    .background-footer-buttom span.title-footer2{
+       
+    position: relative;
+    top: 2.5rem;
+    left: 17rem;
+    
+    }
+}
+
+/* responsive  end */
