@@ -55,6 +55,7 @@ body {
 header .navbar-top-slider {
     position: fixed;
     z-index: 9999;
+    width: 100%;
 }
 
 
@@ -987,28 +988,34 @@ header .navbar-top-slider {
         font-size: 22pt;
     }
 
-    .main-box-khoshmaze{
+    .main-box-khoshmaze {
         text-align: center;
     }
-    .main-box-khoshmaze img{
-        width: 59px;   
+
+    .main-box-khoshmaze img {
+        width: 59px;
     }
+
     .khoshmaze .box-khoshmaze-left .price-food {
         font-size: 21pt;
     }
 
-    .box-khoshmaze-left p{
+    .box-khoshmaze-left p {
         font-size: 21pt;
     }
-    .title-top-cooks p:nth-child(1){
+
+    .title-top-cooks p:nth-child(1) {
         font-size: 23pt;
     }
-    .cooks .information-cooks p:nth-child(2){
+
+    .cooks .information-cooks p:nth-child(2) {
         font-size: 18pt;
     }
-    .cooks .information-cooks span.title-box-main-cooks{
+
+    .cooks .information-cooks span.title-box-main-cooks {
         font-size: 18pt;
     }
+
     .cooks .information-cooks {
         margin-top: -6px;
         height: 91%;
@@ -1036,122 +1043,1062 @@ header .navbar-top-slider {
         height: 171px;
         width: 171px;
     }
-    .moarefi .border-radius{
-    width: 300px;
-    height: 300px;
-    margin-top: 7rem;
-    
+
+    .moarefi .border-radius {
+        width: 300px;
+        height: 300px;
+        margin-top: 7rem;
+
     }
-    .moarefi p{
+
+    .moarefi p {
         font-size: 34pt;
     }
-    .moarefi span{
+
+    .moarefi span {
         font-size: 18pt;
     }
-    .title-menu-resturan p:nth-child(1){
+
+    .title-menu-resturan p:nth-child(1) {
         font-size: 29pt;
     }
-    .title-menu-resturan p:nth-child(2){
+
+    .title-menu-resturan p:nth-child(2) {
         font-size: 32pt;
     }
-    .box-menu p:nth-child(1){
+
+    .box-menu p:nth-child(1) {
         font-size: 26pt;
     }
-    .box-menu span.title-main-menu-restoran{
+
+    .box-menu span.title-main-menu-restoran {
         font-size: 18pt;
     }
-    .box-menu .price{
+
+    .box-menu .price {
         font-size: 19pt;
         width: 82px;
         height: 45px;
     }
-    .box-menu{
+
+    .box-menu {
         height: 300px;
     }
-    .box-menu .mohtava{
+
+    .box-menu .mohtava {
         font-size: 18pt;
     }
-    .box-menu .mohtava2{
+
+    .box-menu .mohtava2 {
         font-size: 14pt;
     }
 
-    .Reserve{
+    .Reserve {
         height: 100rem;
     }
-    .Reserve .reserve-right p:nth-child(1){
+
+    .Reserve .reserve-right p:nth-child(1) {
         font-size: 23pt;
     }
-    .Reserve .container-fluid .input-Reserve input{
+
+    .Reserve .container-fluid .input-Reserve input {
         width: 80%;
-    font-size: 16pt;
-    height: 61px;
+        font-size: 16pt;
+        height: 61px;
     }
-    .Reserve .btn-slider-top{
+
+    .Reserve .btn-slider-top {
         display: block;
     }
-    .Reserve .btn-slider-top{
 
-    width: 13rem;
-    line-height: 46px;
-    height: 62px;
-    font-size: 20pt;
+    .Reserve .btn-slider-top {
+
+        width: 13rem;
+        line-height: 46px;
+        height: 62px;
+        font-size: 20pt;
     }
-    .Lovely-food{
+
+    .Lovely-food {
         height: 122rem;
     }
-    .Lovely-food-title p:nth-child(1){
+
+    .Lovely-food-title p:nth-child(1) {
         font-size: 29pt;
     }
-    .Comments .carousel{
+
+    .Comments .carousel {
         width: 70%;
     }
-    .Comments .carousel-caption h5{
-        
+
+    .Comments .carousel-caption h5 {
+
         font-size: 22pt;
         width: 23rem;
         position: relative;
         top: 0rem;
     }
-    .Comments .carousel-caption p{
-      
-    font-size: 15pt;
-    width: 26rem;
-    position: relative;
-    top: 1rem;
+
+    .Comments .carousel-caption p {
+
+        font-size: 15pt;
+        width: 26rem;
+        position: relative;
+        top: 1rem;
     }
-    .weblog .image-weblog a{
+
+    .weblog .image-weblog a {
         font-size: 18pt;
     }
-    .weblog .image-weblog p{
+
+    .weblog .image-weblog p {
         font-size: 15pt;
     }
-    .background-footer .title-footer-main p:nth-child(1){
+
+    .background-footer .title-footer-main p:nth-child(1) {
         font-size: 24pt;
     }
-    .background-footer .title-footer-main p.title-footer{
+
+    .background-footer .title-footer-main p.title-footer {
         font-size: 19pt;
     }
-    .background-footer-buttom span.title-footer1{
+
+    .background-footer-buttom span.title-footer1 {
         position: relative;
-     right: 0rem; 
-    color: white;
-    font-size: 19pt;
-    display: block;
-    text-align: center;
+        right: 0rem;
+        color: white;
+        font-size: 19pt;
+        display: block;
+        text-align: center;
     }
-    .footer-buttom{
+
+    .footer-buttom {
         height: 9rem;
     }
-    .background-footer-buttom span.title-footer2 a{
+
+    .background-footer-buttom span.title-footer2 a {
         font-size: 27pt;
     }
-    .background-footer-buttom span.title-footer2{
-       
-    position: relative;
-    top: 2.5rem;
-    left: 17rem;
-    
+
+    .background-footer-buttom span.title-footer2 {
+
+        position: relative;
+        top: 2.5rem;
+        left: 17rem;
+
     }
 }
+
+
+
+
+@media screen and (max-width:700px) {
+    .title-main-slider {
+        position: absolute;
+        top: 100px;
+    }
+
+    .about .darbare-left span {
+        font-size: 16.5pt;
+    }
+
+    .moarefi p {
+        font-size: 25pt;
+    }
+
+    .moarefi span {
+        font-size: 15pt;
+    }
+
+    .box-menu span.title-main-menu-restoran {
+        font-size: 14pt;
+        text-align: justify;
+    }
+
+    .box-menu .mohtava {
+        font-size: 14pt;
+    }
+
+    .box-menu .mohtava2 {
+        font-size: 13pt;
+    }
+
+    .box-menu p:nth-child(1) {
+        font-size: 20pt;
+    }
+
+    .box-khoshmaze-left span.name-food {
+        font-size: 18pt;
+    }
+
+    .khoshmaze .box-khoshmaze-left .dot-khoshmaze-left {
+        font-size: 14pt;
+    }
+
+    .khoshmaze .box-khoshmaze-left .price-food {
+        font-size: 18pt;
+    }
+
+    .Lovely-food {
+        height: 98rem;
+    }
+
+    .Comments .carousel {
+        width: 100%;
+    }
+
+    .background-footer-buttom span.title-footer2 {
+        position: relative;
+
+        left: 11rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbar-top-slider {
+        width: 100%;
+        background: linear-gradient(90deg, rgba(223, 175, 255, 1) 0%, rgba(248, 255, 126, 1) 38%, rgba(41, 94, 98, 1) 86%);
+    }
+
+    .slider-top {
+        display: none;
+    }
+
+    .title-main-slider {
+        display: none;
+    }
+
+    .about {
+        position: relative;
+        top: 6rem;
+        height: 74rem;
+    }
+
+    .about .border-title {
+        width: 335px;
+        height: 344px;
+    }
+
+    .border-title video {
+        width: 350px;
+        height: 350px;
+    }
+
+    .about .darbare-left i {
+        font-size: 18pt;
+    }
+
+    .about .darbare-left P {
+        font-size: 21pt;
+    }
+
+    .about .darbare-left span {
+        font-size: 12.5pt;
+    }
+
+    .about .darbare-left .btn-about {
+        width: 24%;
+        height: 48px;
+        font-size: 15pt;
+    }
+
+    .moarefi .border-radius {
+        width: 200px;
+        height: 200px;
+        margin-top: 11rem;
+    }
+
+    .moarefi p {
+        font-size: 17pt;
+    }
+
+    .moarefi span {
+        font-size: 13pt;
+    }
+
+    .moarefi .border-radius img {
+        position: relative;
+        top: 50px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .title-menu-resturan p:nth-child(1) {
+        font-size: 23pt;
+    }
+
+    .title-menu-resturan p:nth-child(2) {
+        font-size: 32pt;
+    }
+
+    .cooks .information-cooks span.title-box-main-cooks {
+        font-size: 15pt;
+    }
+
+    .Lovely-food {
+        height: 87rem;
+    }
+
+    .Comments .comments-title-top p:nth-child(2) {
+        font-size: 19pt;
+    }
+
+    .background-footer-buttom span.title-footer1 {
+        font-size: 14pt;
+    }
+
+    .background-footer .title-footer-main p:nth-child(1) {
+        font-size: 20pt;
+    }
+
+    .background-footer .title-footer-main p.title-footer {
+        font-size: 14pt;
+    }
+
+    .background-footer-buttom span.title-footer2 a {
+        font-size: 19pt;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    .about {
+        height: 1211px;
+    }
+
+    .box-menu span.title-main-menu-restoran {
+        font-size: 12pt;
+    }
+
+    .box-menu .mohtava {
+        font-size: 11pt;
+    }
+
+    .box-menu .mohtava2 {
+        font-size: 10pt;
+    }
+
+    .box-menu .price {
+        font-size: 15pt;
+        width: 67px;
+        height: 36px;
+    }
+
+    .box-menu {
+        height: 239px;
+    }
+
+    .box-menu p:nth-child(1) {
+        font-size: 17pt;
+    }
+
+    .box-khoshmaze-left span.name-food {
+        font-size: 14pt;
+    }
+
+    .khoshmaze .box-khoshmaze-left .price-food {
+        font-size: 14pt;
+    }
+
+    .title-top-cooks p:nth-child(1) {
+        font-size: 19pt;
+    }
+
+    .image-cooks {
+        height: 100%;
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .cooks .information-cooks {
+        height: 92%;
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .cooks .information-cooks span.title-box-main-cooks {
+        font-size: 13pt;
+    }
+
+    .cooks {
+        height: 96rem;
+    }
+
+    .Reserve .container-fluid .input-Reserve input {
+        width: 80%;
+        font-size: 12pt;
+        height: 45px;
+    }
+
+    .Reserve .btn-slider-top {
+        width: 9rem;
+        line-height: 39px;
+        height: 50px;
+        font-size: 14pt;
+    }
+
+    .Reserve {
+        height: 76rem;
+    }
+
+    .Reserve .reserve-right p:nth-child(2) {
+        font-size: 22pt;
+    }
+
+    .Lovely-food-title p:nth-child(1) {
+        font-size: 19pt;
+    }
+
+    .Lovely-food-title p:nth-child(2) {
+        font-size: 19pt;
+    }
+
+    .Lovely-food .container-img img {
+        width: 100%;
+        height: 212px;
+        object-fit: cover;
+    }
+
+    .Lovely-food {
+        height: 127rem;
+    }
+
+    .Comments .carousel {
+        width: 69%
+    }
+
+    .Comments .carousel-caption h5 {
+        font-size: 13pt;
+        width: 15rem;
+        position: relative;
+        top: 1.5rem;
+    }
+
+    .Comments .carousel-caption p {
+        font-size: 12pt;
+        width: 17rem;
+        position: relative;
+        top: 1rem;
+    }
+
+    .weblog .image-weblog a {
+        font-size: 13pt;
+    }
+
+    .weblog .image-weblog p {
+        font-size: 10pt;
+    }
+
+    .Katrink .title-katrink h2 {
+        font-size: 27pt;
+    }
+
+    .Katrink .title-katrink p {
+        font-size: 11pt;
+    }
+
+    .Katrink .btn-Katrink {
+        width: 147px;
+    }
+
+    .background-footer-buttom span.title-footer2 {
+        position: relative;
+        left: 6rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .about .border-title {
+        position: relative;
+        left: 25px;
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .border-title video {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about .darbare-left span {
+        font-size: 11pt;
+    }
+
+    .about {
+        height: 1103px;
+    }
+
+    .title-menu-resturan p:nth-child(1) {
+        font-size: 17pt;
+    }
+
+    .title-menu-resturan p:nth-child(2) {
+        font-size: 20pt;
+    }
+
+    .box-menu span.title-main-menu-restoran {
+        font-size: 10pt;
+    }
+
+    .box-menu .mohtava {
+        font-size: 10pt;
+        padding-right: 20px;
+    }
+
+    .box-khoshmaze-left span.name-food {
+        font-size: 11pt;
+    }
+
+    .khoshmaze .box-khoshmaze-left .dot-khoshmaze-left {
+        font-size: 9pt;
+    }
+
+    .khoshmaze .box-khoshmaze-left .price-food {
+        font-size: 11pt;
+    }
+
+    .box-khoshmaze-left p {
+        font-size: 15pt;
+    }
+
+    .khoshmaze {
+        height: 78rem;
+    }
+
+    .Reserve {
+        height: 59rem;
+    }
+
+    .Reserve .container-fluid .input-Reserve input {
+        width: 98%;
+        font-size: 9pt;
+        height: 31px;
+    }
+
+    .Reserve .reserve-right p:nth-child(1) {
+        font-size: 20pt;
+        padding: 99px 24px 0px 0px;
+    }
+
+    .Reserve .reserve-right p:nth-child(2) {
+        font-size: 18pt;
+        padding: 0px 36px 13px 0px;
+    }
+
+    .Comments .carousel-caption p {
+        font-size: 9pt;
+        width: 13rem;
+        position: relative;
+        top: 2rem;
+    }
+
+    .Comments .carousel-caption h5 {
+        font-size: 10pt;
+        width: 12rem;
+        position: relative;
+        top: 2rem;
+    }
+
+    .Comments .comments-title-top p:nth-child(2) {
+        font-size: 13pt;
+    }
+
+    .weblog .image-weblog a {
+        font-size: 10pt;
+    }
+
+    .Katrink .title-katrink h2 {
+        font-size: 21pt;
+    }
+
+    .background-footer-buttom span.title-footer1 {
+        font-size: 9pt;
+    }
+
+    .background-footer-buttom span.title-footer2 a {
+        font-size: 14pt;
+    }
+
+    .background-footer-buttom span.title-footer2 {
+        position: relative;
+        left: 4rem;
+    }
+
+    .background-footer .title-footer-main p:nth-child(1) {
+        font-size: 14pt;
+    }
+
+    .background-footer .title-footer-main p.title-footer {
+        font-size: 10pt;
+    }
+}
+
+
+@media screen and (max-width:300px) {
+    .navbar-top-slider .img-slider-top img {
+        width: 151px;
+    }
+
+    .border-title video {
+        width: 228px;
+        height: 228px;
+    }
+
+    .about .border-title {
+        position: relative;
+        left: 18px;
+        width: 233px;
+        height: 233px;
+    }
+
+    .about .darbare-left i {
+        font-size: 14pt;
+    }
+
+    .about .darbare-left P {
+        font-size: 13pt;
+    }
+
+    .about .darbare-left span {
+        font-size: 10pt;
+    }
+
+    .about .darbare-left .btn-about {
+        width: 46%;
+        height: 34px;
+        font-size: 12pt;
+        line-height: 26px;
+    }
+
+    .about {
+        height: 1083px;
+    }
+
+    .moarefi .border-radius img {
+        position: relative;
+        top: 35px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .moarefi .border-radius {
+        width: 150px;
+        height: 150px;
+        margin-top: 11rem;
+    }
+
+    .moarefi p {
+        font-size: 13pt;
+    }
+
+    .moarefi span {
+        font-size: 9pt;
+    }
+
+    .title-menu-resturan {
+        margin-top: 63px;
+    }
+
+    .title-menu-resturan p:nth-child(1) {
+        font-size: 12pt;
+    }
+
+    .title-menu-resturan p:nth-child(2) {
+        font-size: 17pt;
+    }
+
+    .box-menu span.title-main-menu-restoran {
+        padding: 12px 14px;
+    }
+
+    .box-menu p:nth-child(1) {
+        font-size: 14pt;
+        padding-right: 20px;
+    }
+
+    .box-menu .price {
+        font-size: 11pt;
+        width: 54px;
+        height: 30px;
+    }
+
+    .box-menu .mohtava2 {
+        font-size: 9pt;
+    }
+
+    .main-box-khoshmaze img {
+        width: 26px;
+    }
+
+    .box-khoshmaze-left span.name-food {
+        font-size: 10pt;
+    }
+
+    .khoshmaze .box-khoshmaze-left .dot-khoshmaze-left {
+        font-size: 8pt;
+    }
+
+    .main-box-khoshmaze {
+        padding: 5px 7px;
+    }
+
+    .box-khoshmaze-left p {
+        font-size: 12pt;
+    }
+
+    .title-top-cooks p:nth-child(1) {
+        font-size: 13pt;
+    }
+
+    .title-top-cooks p:nth-child(2) {
+        font-size: 27px;
+    }
+
+    .cooks .information-cooks p:nth-child(1) {
+        font-size: 17pt;
+    }
+
+    .cooks .information-cooks p:nth-child(2) {
+        font-size: 12pt;
+    }
+
+    .cooks .information-cooks span.title-box-main-cooks {
+        font-size: 10pt;
+    }
+
+    .cooks {
+        height: 82rem;
+    }
+
+    .Reserve .reserve-right p:nth-child(1) {
+        font-size: 14pt;
+    }
+
+    .Reserve .reserve-right p:nth-child(2) {
+        font-size: 13pt;
+    }
+
+    .Reserve .btn-slider-top {
+        width: 8rem;
+        line-height: 35px;
+        height: 39px;
+        font-size: 12pt;
+    }
+
+    .Reserve {
+        height: 51rem;
+    }
+
+    .Lovely-food-title p:nth-child(1) {
+        font-size: 13pt;
+    }
+
+    .Lovely-food-title p:nth-child(2) {
+        font-size: 12pt;
+    }
+
+    .Lovely-food .container-img img {
+        height: 116px;
+        object-fit: cover;
+    }
+
+    .Lovely-food {
+        height: 77rem;
+    }
+
+    .Comments .carousel-caption p {
+        font-size: 7.5pt;
+    }
+
+    .Comments .carousel-caption h5 {
+        font-size: 9pt;
+        width: 9rem;
+        position: relative;
+        top: 2.5rem;
+    }
+
+    .Katrink .title-katrink h2 {
+        font-size: 16pt;
+    }
+
+    .Katrink .title-katrink p {
+        font-size: 10pt;
+    }
+
+    .Katrink .title-katrink {
+        margin-top: 7rem;
+    }
+
+    .Katrink .btn-Katrink {
+        width: 120px;
+        font-size: 11pt;
+        height: 2rem;
+        line-height: 28px;
+    }
+
+    .background-footer-buttom span.title-footer2 {
+        position: relative;
+        left: 1rem;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    .about .darbare-left .btn-about {
+        width: 37%;
+    }
+
+    .about {
+        height: 1124px;
+    }
+
+    .khoshmaze .box-khoshmaze-left .dot-khoshmaze-left {
+        font-size: 8pt;
+    }
+}
+
+
+
+@media screen and (max-width:414px) {
+    .Katrink .title-katrink h2 {
+        font-size: 26pt;
+    }
+
+    .Reserve .container-fluid .input-Reserve input {
+        width: 94%;
+    }
+
+    .Reserve .reserve-right p:nth-child(1) {
+        font-size: 20pt;
+        padding: 160px 16px 0px 0px;
+    }
+
+    .Reserve .reserve-right p:nth-child(2) {
+        padding: 0px 16px 13px 0px;
+        font-size: 19pt;
+    }
+
+    .main-box-khoshmaze {
+        padding: 5px 0px;
+    }
+
+    .khoshmaze .box-khoshmaze-left .dot-khoshmaze-left {
+        font-size: 8pt;
+    }
+
+    .box-menu {
+        height: 269px;
+    }
+
+    .about {
+        height: 1261px;
+    }
+
+    .about .darbare-left .btn-about {
+        width: 35%;
+    }
+
+    .border-title video {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about .border-title {
+        width: 282px;
+        height: 320px;
+        position: relative;
+        left: 30px;
+    }
+
+
+}
+
+
+@media screen and (max-width:414px) {
+    .about {
+        height: 1171px;
+    }
+}
+
+
+
+@media screen and (max-width:360px) {
+    .about {
+        height: 1218px;
+    }
+
+    .Katrink .title-katrink h2 {
+        font-size: 20pt;
+    }
+}
+
+
+@media screen and (max-width:412px) {
+    .background-footer-buttom span.title-footer1 {
+        font-size: 13pt;
+    }
+
+    .background-footer-buttom span.title-footer2 {
+        position: relative;
+        left: 3rem;
+    }
+
+    .Comments .carousel-caption p {
+        font-size: 10pt;
+        width: 13rem;
+        position: relative;
+        top: 1rem;
+    }
+
+    .Comments .carousel-caption h5 {
+        width: 13rem;
+    }
+
+    .about {
+    height: 1294px;;
+    }
+}
+
+
+
+@media screen and (max-width:912px) {
+    .btn-slider-top {
+        display: none;
+    }
+
+    .navbar-top-slider .container-fluid {
+        display: block;
+    }
+
+    .navbar-top-slider .container-fluid .navbar-toggler {
+        float: left;
+        background: linear-gradient(331deg, rgba(16, 252, 226, 0.6138830532212884) 0%, rgba(69, 209, 204, 1) 18%, rgba(215, 93, 145, 1) 67%);
+    }
+
+    .title-main-slider {
+        position: absolute;
+        top: 108px;
+    }
+
+    .darbare-left {
+        position: relative;
+        top: 14rem;
+    }
+
+    .border-title {
+        position: relative;
+        left: -151px;
+    }
+
+    .about {
+        height: 1026px;
+    }
+
+    .khoshmaze {
+        height: 1470px;
+    }
+
+    .khoshmaze .box-khoshmaze-left {
+        width: 100%;
+        position: relative;
+        right: 0;
+    }
+
+    .main-box-khoshmaze {
+        text-align: center;
+    }
+
+    .cooks {
+        height: 107rem;
+    }
+
+    .cooks .information-cooks {
+        margin-top: 0;
+        height: 104%;
+        box-shadow: -1px 7px 23px 4px silver;
+    }
+
+    .image-cooks {
+        margin-top: 60px;
+        box-shadow: 0 -9px 10px 3px silver;
+        height: 93%;
+    }
+
+    .cooks .information-cooks span.title-box-main-cooks {
+        font-size: 15pt;
+    }
+}
+
+
+@media screen and (max-width:912px) {
+    .about .border-title {
+        position: relative;
+        left: 28px;
+    }
+    .about{
+        height: 1218px;
+    }
+    .cooks{
+        height: 115rem;
+    }
+}
+
+
+
+@media screen and (max-width:280px){
+    .background-footer-buttom span.title-footer1{
+        font-size: 9pt;
+    }
+    .background-footer-buttom span.title-footer2{
+        position: relative;
+    left: 1rem;
+    }
+    .cooks{
+        height: 131rem;
+    }
+    .cooks .information-cooks{
+        height: 94%;
+    }
+    .cooks .information-cooks span.title-box-main-cooks {
+        font-size: 11pt;
+    }
+    .khoshmaze .box-khoshmaze-left .dot-khoshmaze-left{
+        font-size: 7pt;
+    }
+    .khoshmaze {
+        height: 954px;
+    }
+    .about .border-title{
+        position: relative;
+        left: 28px;
+        width: 200px;
+        height: 200px;    
+    }
+    .border-title video{
+        width: 200px;
+        height: 200px;
+    }
+    .about{
+        height: 1101px;
+    }
+
+    .cooks {
+        height: 97rem;
+    }
+}
+
+
+
+
+@media screen and (max-width:412px){
+    .about{
+        height: 1294px;
+    }
+}
+
+
+
 
 /* responsive  end */
