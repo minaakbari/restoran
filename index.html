@@ -20,51 +20,51 @@
 
 
   <header>
-    
-      <div class="navbar-top-slider">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar-top-slider">
 
-          <div class="img-slider-top">
-            <img src="img/7b1935f89f5e445b90cd5637134f7e37.w_201,h_39,r_k.png" alt="">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="img-slider-top">
+          <img src="img/7b1935f89f5e445b90cd5637134f7e37.w_201,h_39,r_k.png" alt="">
+        </div>
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">صفحه نخست</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">درباره ما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu-restoran">منوی رستوران </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cooks">سرآشپزها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Lovely-food"> گالری </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#weblog"> وبلاگ </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#footer">تماس با ما</a>
+              </li>
+
+            </ul>
+
           </div>
-          <div class="container-fluid">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">صفحه نخست</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">درباره ما</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#menu-restoran">منوی رستوران </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#cooks">سرآشپزها</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Lovely-food"> گالری </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#weblog"> وبلاگ </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#footer">تماس با ما</a>
-                </li>
-
-              </ul>
-
-            </div>
-            <div type="buttom" class="btn-slider-top">رزرو میز</div>
-          </div>
-        </nav>
-      </div>
+          <div type="buttom" class="btn-slider-top">رزرو میز</div>
+        </div>
+      </nav>
+    </div>
 
   </header>
 
@@ -844,18 +844,19 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 
+<style>
 
+</style>
 
 <script>
- 
 
-
-
-  $(window).on('scroll' , function (event) {
-    var scroll = $(window).scrollTop();
-    $('.navbar-top-slider').height()
-  (function(){
-    $('.navbar-top-slider').css('background','black')
+  $(window).scroll(function () {
+    var windowTop = scrollY;
+    if (windowTop >= 400) {
+      $('.navbar-top-slider').css('background', '#333333')
+    } else {
+      $('.navbar-top-slider').css('background', 'none')
+    }
   })
-});
+
 </script>
